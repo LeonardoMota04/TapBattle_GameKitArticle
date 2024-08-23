@@ -43,7 +43,7 @@ struct RoleSelectionView: View {
                             : ""
                         )
                         .padding(.bottom)
-                        .foregroundColor(.black)
+                        .foregroundColor(.white)
                         .bold()
                         .font(.callout)
                         .bold()
