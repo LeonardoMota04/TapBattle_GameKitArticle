@@ -132,7 +132,7 @@ class MatchManager: NSObject, ObservableObject, GKLocalPlayerListener {
     }
 }
 
-// MARK: - EXTENSIONS
+// MARK: - EXTENSION
 // MatchmakerViewController - handles finding and connecting to a match
 extension MatchManager: GKMatchmakerViewControllerDelegate {
     

@@ -31,6 +31,9 @@ struct MenuView: View {
                         .frame(height: UIScreen.main.bounds.height / 2)
                 }
                 
+                // BG
+                Color.black.opacity(0.5)
+                
                 // TITLE WITH HAND TAP
                 VStack {
                     Spacer()
@@ -52,10 +55,12 @@ struct MenuView: View {
                 Button("Invite a friend") {
                     matchManager.sendInvite()
                 }
-                .buttonStyle(.borderedProminent)
-                .tint(Color.white)
-                .foregroundStyle(.black)
-                .position(x: geometry.size.width / 2, y: geometry.size.height - 50)
+                .bold()
+                .font(.title2)
+                .foregroundColor(.white)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 25).fill(Color.black.opacity(0.4)))
+                .position(x: geometry.size.width / 2, y: geometry.size.height / 1.5)
             }
         }
         .ignoresSafeArea()

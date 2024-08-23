@@ -114,7 +114,11 @@ extension MatchManager {
     // Send a game message
     func sendGameMessage(_ message: GameMessage) {
         guard let data = message.encode() else { return }
-        sendData(data, mode: .reliable)
+        do {
+            try match?.sendData(toAllPlayers: data, with: .reliable)
+        } catch {
+            print(error)
+        }
     }
     
     // Generic function to send data

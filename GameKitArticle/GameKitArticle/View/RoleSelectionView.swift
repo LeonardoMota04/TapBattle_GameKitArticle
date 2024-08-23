@@ -14,7 +14,7 @@ struct RoleSelectionView: View {
         GeometryReader { geometry in
             ZStack {
                 // BG
-                Color.black.ignoresSafeArea()
+                Color.white.ignoresSafeArea()
                 
                 // Buttons for selecting roles
                 HStack {
@@ -43,7 +43,8 @@ struct RoleSelectionView: View {
                             : ""
                         )
                         .padding(.bottom)
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)
+                        .bold()
                         .font(.callout)
                         .bold()
                     }
@@ -87,20 +88,22 @@ struct RoleSelectionView: View {
                         .foregroundColor(.white)
                         .padding()
                         .background(RoundedRectangle(cornerRadius: 25).fill(Color.black.opacity(0.4)))
-                        .padding(.top, 30)
+                        .padding(.top, 90)
                     
                     Spacer()
                     
-                    if let playerSelection = matchManager.playerSelection, playerSelection.isHost {
+                    //if let playerSelection = matchManager.playerSelection, playerSelection.isHost {
                         // MARK: - GO TO GAME VIEW
                         Button("Start") {
                             matchManager.goToGame()
                         }
-                        .buttonStyle(.borderedProminent)
-                        .tint(Color.white)
-                        .foregroundStyle(.black)
-                        .padding(.bottom, 30)
-                    }
+                        .bold()
+                        .font(.title2)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(RoundedRectangle(cornerRadius: 25).fill(Color.black.opacity(0.4)))
+                        .padding(.bottom, 90)
+                    //}
                 }
             }
         }
