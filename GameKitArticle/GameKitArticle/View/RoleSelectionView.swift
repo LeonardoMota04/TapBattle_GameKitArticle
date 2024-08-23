@@ -92,7 +92,7 @@ struct RoleSelectionView: View {
                     
                     Spacer()
                     
-                    //if let playerSelection = matchManager.playerSelection, playerSelection.isHost {
+                    if let playerSelection = matchManager.playerSelection, playerSelection.isHost {
                         // MARK: - GO TO GAME VIEW
                         Button("Start") {
                             matchManager.goToGame()
@@ -103,7 +103,7 @@ struct RoleSelectionView: View {
                         .padding()
                         .background(RoundedRectangle(cornerRadius: 25).fill(Color.black.opacity(0.4)))
                         .padding(.bottom, 90)
-                    //}
+                    }
                 }
             }
         }
