@@ -5,13 +5,12 @@ Tap Battle é um jogo multiplayer competitivo desenvolvido para iOS usando a fra
 
 Funcionalidades
 
-- Autenticação via Game Center: Conecte-se facilmente com sua conta do Game Center para iniciar o jogo.
-- Matchmaking: Convide amigos ou participe de partidas rápidas com jogadores aleatórios.
-- Envio e Recebimento de Dados em Tempo Real: Sincronize o estado do jogo entre os jogadores, garantindo uma experiência fluida e justa.
-- Definição de Papéis: Defina papéis específicos para cada jogador.
-- Identificar Host e dar preferências: Identifique o host da partida e dê prioridades.
-- Timer Compartilhado: Um cronômetro compartilhado que garante sincronia perfeita entre os jogadores.
-- Interface Intuitiva: Foco total na ação rápida e competitiva.
+- Autenticação via Game Center: conecte-se com a sua conta do Game Center para iniciar o jogo.
+- Matchmaking: convide amigos.
+- Envio e eecebimento de dados em tempo real: sincronize o estado do jogo entre os jogadores, garantindo uma experiência fluida e justa.
+- Definição de papéis: defina papéis específicos para cada jogador.
+- Identificar host e dar preferências: identifique o host da partida e o dê prioridades.
+- Timer compartilhado: um cronômetro compartilhado que garante sincronia perfeita entre os jogadores.
 
 Sobre o Projeto
 
