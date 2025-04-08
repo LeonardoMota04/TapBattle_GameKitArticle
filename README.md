@@ -16,4 +16,4 @@ Read the full article for an in-depth look at the development process:
 - 🇺🇸 https://medium.com/@leonardoMota04/gamekit-essentials-the-complete-guide-to-developing-multiplayer-games-on-ios-0af6c260f7de
 - 🇧🇷 https://medium.com/@leonardoMota04/gamekit-essentials-o-guia-completo-para-desenvolver-jogos-multiplayer-no-ios-df6292cd7f20
 
-Questions? Contact me: leomotadf@gmail.com / Instagram: @leoo.motaa
+Questions? Contact me: https://www.linkedin.com/in/leonardo-pereira-mota/ / leomotadf@gmail.com / Instagram: @leoo.motaa
