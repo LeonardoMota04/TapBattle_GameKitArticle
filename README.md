@@ -12,6 +12,8 @@ Tap Battle is a competitive multiplayer game developed for iOS using the GameKit
 # About the Project
 This repository is part of a Medium article that explores how to use GameKit to build a complete multiplayer game. The game serves as a hands-on example of how to integrate authentication, matchmaking, host management, role separation, and real-time communication into your projects.
 
-Read the full article for an in-depth look at the development process: 🇺🇸 https://medium.com/@leonardoMota04/gamekit-essentials-the-complete-guide-to-developing-multiplayer-games-on-ios-0af6c260f7de / 🇧🇷 https://medium.com/@leonardoMota04/gamekit-essentials-o-guia-completo-para-desenvolver-jogos-multiplayer-no-ios-df6292cd7f20
+Read the full article for an in-depth look at the development process: 
+🇺🇸 https://medium.com/@leonardoMota04/gamekit-essentials-the-complete-guide-to-developing-multiplayer-games-on-ios-0af6c260f7de
+🇧🇷 https://medium.com/@leonardoMota04/gamekit-essentials-o-guia-completo-para-desenvolver-jogos-multiplayer-no-ios-df6292cd7f20
 
 Questions? Contact me: leomotadf@gmail.com / Instagram: @leoo.motaa
