@@ -1,21 +1,19 @@
-# TapBattle_GameKitArticle
-Tap Battle
+# Complete GameKit Article
 
-Tap Battle é um jogo multiplayer competitivo desenvolvido para iOS usando a framework **GameKit**. Neste jogo, dois jogadores se enfrentam em uma corrida contra o tempo para ver quem consegue clicar mais rápido e cobrir a tela do oponente.
+# Tap Battle
+Tap Battle is a competitive multiplayer game developed for iOS using the GameKit framework. In this game, two players face off in a race against time to see who can tap faster and cover their opponent’s screen.
 
-Funcionalidades
+# Features
+- GameCenter authentication: connect with your GameCenter account to start the game!
+- Matchmaking: how does the process to invite friends to play works?
+- Real-time data sending and receiving: synchronize the game state between players, ensuring a smooth and fair experience.
+- Role assignment: define specific roles for each player.
+- Host identification and priority: identify the match host and give them priority when necessary.
+- Shared timer: a synchronized countdown timer shared between both players.
 
-- Autenticação via Game Center: conecte-se com a sua conta do Game Center para iniciar o jogo.
-- Matchmaking: convide amigos.
-- Envio e eecebimento de dados em tempo real: sincronize o estado do jogo entre os jogadores, garantindo uma experiência fluida e justa.
-- Definição de papéis: defina papéis específicos para cada jogador.
-- Identificar host e dar preferências: identifique o host da partida e o dê prioridades.
-- Timer compartilhado: um cronômetro compartilhado que garante sincronia perfeita entre os jogadores.
+# About the Project
+This repository is part of a Medium article that explores how to use GameKit to build a complete multiplayer game. The game serves as a hands-on example of how to integrate authentication, matchmaking, host management, role separation, and real-time communication into your projects.
 
-Sobre o Projeto
+Read the full article for an in-depth look at the development process: 🇺🇸 https://medium.com/@leonardoMota04/gamekit-essentials-the-complete-guide-to-developing-multiplayer-games-on-ios-0af6c260f7de / 🇧🇷 https://medium.com/@leonardoMota04/gamekit-essentials-o-guia-completo-para-desenvolver-jogos-multiplayer-no-ios-df6292cd7f20
 
-Este repositório faz parte de um artigo no Medium que explora o uso do GameKit para criar um jogo multiplayer completo. O jogo serve como um exemplo prático de como integrar autenticação, matchmaking, host, separação de papéis e comunicação em tempo real em seus projetos.
-
-Leia o artigo completo para uma visão detalhada do processo de desenvolvimento.
-
-Dúvidas: leomotadf@gmail.com / ig: leoo.motaa
+Questions? Contact me: leomotadf@gmail.com / Instagram: @leoo.motaa
