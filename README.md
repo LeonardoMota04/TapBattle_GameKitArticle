@@ -1,5 +1,3 @@
-# Complete GameKit Article
-
 # Tap Battle
 Tap Battle is a competitive multiplayer game developed for iOS using the GameKit framework. In this game, two players face off in a race against time to see who can tap faster and cover their opponent’s screen.
 
